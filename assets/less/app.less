@@ -1,0 +1,207 @@
+/*!
+ * Roots 6.5.2
+ */
+
+@import "bootstrap/bootstrap.less";
+
+@root-colour:           #5E9DD1;
+@post-container-size:   95px;
+
+/* ==========================================================================
+   Base
+   ========================================================================== */
+
+body { 
+   font-family:   'Droid Sans', sans-serif;
+   font-weight:   100;
+}
+
+h1 {
+   font-size: 22px;
+}
+
+a {
+   color: @root-colour;
+}
+
+hr {
+}
+
+
+/* ==========================================================================
+   Header
+   ========================================================================== */
+
+.banner { 
+   height: 50px;
+}
+
+#title {
+   font-family:   'Ubuntu', sans-serif;
+   font-size:     22px;
+   color:         #aaa;
+   font-weight:   400;
+}
+
+#title-half {
+   color:         #858585;
+   font-weight:   300;
+}
+
+#logo {
+   height: 30px;
+}
+
+.navbar {
+   background-color: #343434;
+   margin-bottom: 0px;
+   border:0px;
+}
+
+/* ==========================================================================
+   Content
+   ========================================================================== */
+
+.content { }
+
+article .post {
+   background-color: #aaa;
+   height:90px;
+}
+
+.header-colour-1 { background-color:#FEA9A9;}
+.header-colour-2 {background-color:#8BEDE0;}
+.header-colour-3 {background-color:#C0B4FE;}
+.header-colour-4 {background-color:#F9D7BB;}
+
+.header-colour {
+   height:8px;
+}
+
+.postbox {
+   padding: 2em 0em;
+   min-height: @post-container-size;
+}
+
+.navbar-header { 
+   padding-left:1em;
+}
+
+.published {
+   font-size: 14px;
+}
+
+.post-right-section {
+   clear: right;
+   padding:8px 10px;
+}
+
+.source {
+   font-size:  1.4rem;
+   color:      #bbb;
+   margin:     10px 0px;
+}
+
+.post-seperator {
+   clear: both;
+}
+
+.post-image-container {
+   height:           100%;
+   background-color: #999;
+}
+
+.entry-title {
+   margin:        5px 0px 0px 0px;
+   font-size:     19px;
+   overflow:      hidden;
+   color:         @root-colour;
+   line-height:   1.25;
+}
+
+.post-image {
+   display:block;
+   height:           @post-container-size;
+   width:            @post-container-size;
+   float:            left;
+   margin-right:     2em;
+   background-color: #222;
+   border-width:     2px;
+   border-style:     solid;
+   border-color:     #ccc;
+   border-radius:    0px;
+   padding:          3px;
+   background-color:#fff;
+}
+
+
+/* ==========================================================================
+   Primary Content
+   ========================================================================== */
+
+.main { 
+}
+
+/* Gallery Shortcode */
+.gallery-row { 
+   padding: 15px 0; 
+}
+
+
+
+/* ==========================================================================
+   Sidebar
+   ========================================================================== */
+
+.sidebar { }
+
+
+
+/* ==========================================================================
+   Posts
+   ========================================================================== */
+
+.hentry header { }
+.hentry time { }
+.hentry .byline { }
+.hentry .entry-content { }
+.hentry footer { }
+
+
+
+/* ==========================================================================
+   Footer
+   ========================================================================== */
+
+.content-info { }
+
+footer {
+   margin:10px 0px 20px 0px;
+}
+
+#copyright {
+   font-size:14px;  
+   font-family: 'Ubuntu', sans-serif;
+}
+
+/* ==========================================================================
+   WordPress Generated Classes
+   See: http://codex.wordpress.org/CSS#WordPress_Generated_Classes
+   ========================================================================== */
+
+.aligncenter { display: block; margin: 0 auto; }
+.alignleft { float: left; }
+.alignright { float: right; }
+figure.alignnone { margin-left: 0; margin-right: 0; }
+
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media (min-width: @screen-sm-min) { }
+
+@media (min-width: @screen-md-min) { }
+
+@media (min-width: @screen-lg-min) { }
