@@ -8,10 +8,7 @@
     	<?php endif; ?>
 
     	<div class="post-right-section"><h3 class="source pull-right">
-				<?php 
-                    $source = get_post_custom(get_the_ID())['Source']
-                    print $source[0];
-                ?>
+				<?php //print get_post_custom(get_the_ID())['Source'][0]; ?>
 			</h3>
     		<?php get_template_part('templates/entry-meta'); ?>
     		
