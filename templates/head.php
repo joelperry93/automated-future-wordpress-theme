@@ -10,8 +10,8 @@
 
   	<link rel="alternate" type="application/rss+xml" title="<?php echo get_bloginfo('name'); ?> Feed" href="<?php echo esc_url(get_feed_link()); ?>">
  
-	<link rel="icon" href="favicon.ico" type="image/x-icon" />
-	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+	<link rel="icon" href="favicon.ico?v=2" type="image/x-icon" />
+	<link rel="shortcut icon" href="favicon.ico?v=2" type="image/x-icon" />
 
 	<!-- Fonts -->
 	<link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
